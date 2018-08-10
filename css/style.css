@@ -209,6 +209,12 @@ body{
   }
 }
 
+@media only screen and (max-width: 458px){
+  .nav-link {
+      font-size: 1.1rem;
+  }
+}
+
 @media only screen and (max-width: 415px){
   .logo h1 {
     font-size: 1.5rem;
