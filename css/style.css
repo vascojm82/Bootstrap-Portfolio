@@ -137,6 +137,11 @@ body{
   margin: auto;
 }
 
+.link a{
+  color: white;
+  font-size: 1.6rem;
+}
+
 /**************************/
 
 /* MEDIA QUERIES */
@@ -150,6 +155,9 @@ body{
   .logo h1 {
       font-size: 1.4rem;
   }
+  .link a{
+    font-size: 1.3rem;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -160,14 +168,22 @@ body{
     font-size: 2.6rem;
   }
   .nav-link {
-    font-size: 1.6rem;
+    font-size: 1.1rem;
   }
 }
 
 @media only screen and (max-width: 870px) {
   /* Portfolio Page */
-  .image-banner span {
-    font-size: 0.8rem;
+  .link a {
+    font-size: 0.9rem;
+  }
+  /********************/
+}
+
+@media only screen and (max-width: 769px) {
+  /* Portfolio Page */
+  .link a{
+    font-size: 0.9rem;
   }
   /********************/
 }
@@ -181,6 +197,10 @@ body{
   .image-banner span {
     font-size: 0.4rem;
   }
+
+  .link a{
+    font-size: 1.1rem;
+  }
   /*************************/
 }
 
@@ -188,6 +208,9 @@ body{
  .image-subcontainer{
       float: none;
       margin: auto;
+  }
+  .link a{
+    font-size: 0.8rem;
   }
 }
 
@@ -198,6 +221,9 @@ body{
   .nav-link {
     font-size: 1.3rem;
   }
+  .link a{
+    font-size: 0.7rem;
+  }
 }
 
 @media only screen and (max-width: 520px) {
@@ -206,6 +232,9 @@ body{
   }
   .frame {
     width: -webkit-fill-available;
+  }
+  .link a{
+    font-size: 1rem;
   }
 }
 
@@ -227,6 +256,9 @@ body{
 @media only screen and (max-width: 385px){
   .mid-container {
       padding: 20px 45px;
+  }
+  .link a{
+    font-size: 1rem;
   }
 }
 
