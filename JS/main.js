@@ -12,7 +12,6 @@ $(document).ready(function(){
     centerNavList();
     console.log($(window).width());
 });
-
 $(window).resize(function(){
     centerNavList();
     console.log($(window).width());
