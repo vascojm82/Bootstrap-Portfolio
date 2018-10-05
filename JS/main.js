@@ -11,6 +11,22 @@ function centerNavList(){
 $(document).ready(function(){
     centerNavList();
     console.log($(window).width());
+
+    $( ".show-tooltip" ).tooltip({
+      show: {
+        effect: "slideDown",
+        delay: 250
+      },
+      track:true
+    });
+
+    $( ".hide-tooltip" ).tooltip({
+      hide: {
+        effect: "explode",
+        delay: 0
+      },
+      track:true
+    });
 });
 $(window).resize(function(){
     centerNavList();
