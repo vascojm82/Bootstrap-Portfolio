@@ -38,6 +38,16 @@ body{
   overflow: -webkit-paged-x;
 }
 
+.col-text{
+  -webkit-column-count: 4;
+  list-style: none;
+  margin-left: -24px;
+}
+
+.bio{
+  color: #AB968A;
+}
+
 .header-subcontainer{
   border-bottom: 2px solid #DDDDDD;
 }
